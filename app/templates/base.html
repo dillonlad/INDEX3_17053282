@@ -21,8 +21,8 @@
     <div class="row">
         <div class="col-md-12">
             <nav class="navbar navbar-dark bg-info">
-                <a href="http://127.0.0.1:5000/"><span class="navbar-brand mb-0 h1">Rain Blog</span></a>
-                <a href="http://127.0.0.1:5000/templates" class="btn btn-link">Sign Up!</a>
+                <a href="{{url_for('main.index')}}"><span class="navbar-brand mb-0 h1">Rain Blog</span></a>
+                <a href="{{url_for('main.signup')}}" class="btn btn-dark">Sign Up!</a>
             </nav>
         </div>
     </div>
